@@ -29,7 +29,7 @@
 #     print("Enter valid mark, out of 50")
 #     exit()
 
-# if 50 >= x >= 45 :
+# if 50 >= x > 45 :
 #     print("A")
 # elif 45 >= x > 35 :
 #     print("B")
@@ -55,9 +55,12 @@
 
 
 # # LEAP YEAR CHECK
-# y = float(input("Year? "))
+# y = int(input("Year? "))
 
-# if y%4 == 0 :
+
+# if y%100 == 0 and y%400 == 0:
+#     print("LEAPYEAR")
+# elif y%4 == 0 :
 #     print("LEAPYEAR")
 # else:
 #     print("NOT")
@@ -67,13 +70,13 @@
 
 # h = float(input("hight: "))
 # w = float(input("wieght: "))
-# r = w/h
+# r = w/(h*h)
 
-# if r > 30 :
+# if r >= 30 :
 #     print("obese")
-# elif 29.9 > r > 25.0 :
+# elif 29.9 >= r >= 25.0 :
 #     print("over")
-# elif 24.9 > r > 18.5 :
+# elif 24.9 >= r >= 18.5 :
 #     print("normal")
 # else :
 #     print("under")

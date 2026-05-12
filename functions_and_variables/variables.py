@@ -66,13 +66,13 @@
 # b = int(input("second value: "))
 # print(a+b)
 
-a = float(input("first value: "))
-b = float(input("second value: "))
+# a = float(input("first value: "))
+# b = float(input("second value: "))
 
-z = a/b
-n=5                          # decimal of rounding
-w = round(a/b,n)             # round to nearest integer with respect to decimal of "n"
+# z = a/b
+# n=5                          # decimal of rounding
+# w = round(a/b,n)             # round to nearest integer with respect to decimal of "n"
 
-print(z)
-print(w)
+# print(z)
+# print(w)
 

@@ -33,9 +33,9 @@
 #     print("A")
 # elif 45 >= x > 35 :
 #     print("B")
-# elif 25 >= x > 15 :
+# elif 35 >= x > 25 :
 #     print("C")
-# elif 15 >= x > 5 :
+# elif 25 >= x > 15 :
 #     print("D")
 # else :
 #     print("F")

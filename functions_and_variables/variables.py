@@ -51,5 +51,28 @@
 # print(b)
 
 
-# INT
+# INT & FLOAT
+
+# x = 3
+# y = 7
+# print(x + y)
+
+# a = input("first value: ")
+# b = input("second value: ")
+# print(a+b)                 # "input" stored as str so it will add 1+2 = 12
+# print(int(a)+int(b))       # convert into int, 1+2 = 3
+
+# a = int(input("first value: "))
+# b = int(input("second value: "))
+# print(a+b)
+
+a = float(input("first value: "))
+b = float(input("second value: "))
+
+z = a/b
+n=5                          # decimal of rounding
+w = round(a/b,n)             # round to nearest integer with respect to decimal of "n"
+
+print(z)
+print(w)
 

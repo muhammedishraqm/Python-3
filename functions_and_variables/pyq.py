@@ -142,3 +142,27 @@
 #         n = int(input("n ? "))
 
 
+# # EXPENSE ANALYSER
+
+# exp = [225,335,332,444,533,77,86,4,788,994,224]
+# lenn = len(exp)
+# a=0
+# for i in exp :
+#     a=a+i
+# b = a / lenn
+# print("Your avg expense:",b)
+
+
+# x = 0
+# for i in exp :
+#     if x < i :
+#         x = i
+# print("your highest expense:",x)
+
+# # PYRAMID BUILDERS
+# x=4
+# i=0
+# while i < x+1 :
+#     print("*" * i)
+#     i += 1
+

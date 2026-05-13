@@ -76,3 +76,50 @@
 # print(z)
 # print(w)
 
+#-------------------- IF  ELIF  ELSE ----------------------------
+
+# # IF CHECK THE COMPLETELE CONDITION
+
+# x = input("X: ")
+# y = input("Y: ")
+# if x < y:
+#     print("x is less than y")
+# if x > y :
+#     print("x is greater than y")
+# if x == y:
+#     print("x is equal to y")
+
+
+# # ELIF CHECK ONLY IF IS FALSE
+# x = input("X: ")
+# y = input("Y: ")
+# if x < y:
+#     print("x is less than y")
+# elif x > y :
+#     print("x is greater than y")
+# elif x == y:
+#     print("x is equal to y")
+
+
+# # ELSE CHECK ONLY IF AND ELIF BOTH ARE FALSE
+# x = input("X: ")
+# y = input("Y: ")
+# if x < y:
+#     print("x is less than y")
+# elif x > y :
+#     print("x is greater than y")
+# else:
+#     print("x is equal to y")
+
+# ---------------------  LOOP  -------------------------------
+
+# stu = ["hey","hello","hou"]
+# for i in stu :
+#     print(i)
+
+# i = 0
+# while i < 3 :
+#     print(i)
+#     i = i + 1
+
+# ---------------------- FUNCTION -----------------------------

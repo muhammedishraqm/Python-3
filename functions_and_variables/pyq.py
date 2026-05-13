@@ -80,3 +80,65 @@
 #     print("normal")
 # else :
 #     print("under")
+
+# # BANK
+
+# balance = 2000
+# usern = "abc123"
+# passs = 321
+# newb = 0
+
+# # AUTHENTICATION
+# a = input("user name: ")
+# b = int(input("password: "))
+
+# if a == usern and passs == b :
+#     x = input("ENQUIRY : \n1.BALANCE \n 2.WITHDRAW ")
+#     if x == "1" :
+#         print(balance)
+#     elif x == "2" :
+#         y = int(input("amount: "))
+#         if y <= balance and y > 0 :
+#             balance = balance - y
+#             print(f"withdraw {y} \nbalance {balance}")
+#         else :
+#             print("invalid amount")
+    
+# else :
+#     print("incorrect, please try again ")
+
+
+# # GUESSING GAME
+# import random as rn
+
+# i = True
+# num = rn.randint(1,100)
+# while i :
+#     x = int(input("enter a number "))
+#     if x == num :
+#         print("GOOD")
+#         print("actual value is: ",num)
+#         i = False
+#     else :
+#         print("LOST")
+#         if num > x :
+#             print("YOUR GUESSING, LOW")
+#         elif num < x :
+#             print("YOUR GUESSING, HIGH")
+#         print("TRY AGAIN")
+
+
+# # PRINT N OUTPUT , MUST BE POSITIVE
+# n = int(input("n ? "))
+# i = 0
+# x = True
+# while x :
+#     if n > 0 :
+#         x = False
+#         while i < n :
+#             print("hai")
+#             i = i+1
+#     elif n <= 0 :
+#         n = int(input("n ? "))
+
+

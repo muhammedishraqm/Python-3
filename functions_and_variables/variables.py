@@ -123,3 +123,12 @@
 #     i = i + 1
 
 # ---------------------- FUNCTION -----------------------------
+
+# def square(num):
+#     print(num * num)
+
+# # or 
+
+# def square(num):
+#     return num * num
+

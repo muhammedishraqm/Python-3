@@ -76,59 +76,27 @@
 # print(z)
 # print(w)
 
-#-------------------- IF  ELIF  ELSE ----------------------------
+# # THIS PROJECT GENERATE ID CARD
 
-# # IF CHECK THE COMPLETELE CONDITION
-
-# x = input("X: ")
-# y = input("Y: ")
-# if x < y:
-#     print("x is less than y")
-# if x > y :
-#     print("x is greater than y")
-# if x == y:
-#     print("x is equal to y")
+# name = input("enter your full name: ")
+# print("LEVEL: 1, 2, 3, 4, 5")
+# access = input("enter your access level ")
+# temp = float(input("enter your body temp "))
+# print("SECURITY PASS : 1 FOR TRUE --AND-- 0 FOR FALSE")
+# passs = bool(input("security pass "))
 
 
-# # ELIF CHECK ONLY IF IS FALSE
-# x = input("X: ")
-# y = input("Y: ")
-# if x < y:
-#     print("x is less than y")
-# elif x > y :
-#     print("x is greater than y")
-# elif x == y:
-#     print("x is equal to y")
+# print(f"AGENT:{name}.\nLEVEL:{access}.\nSTATUS:{passs}")
 
 
-# # ELSE CHECK ONLY IF AND ELIF BOTH ARE FALSE
-# x = input("X: ")
-# y = input("Y: ")
-# if x < y:
-#     print("x is less than y")
-# elif x > y :
-#     print("x is greater than y")
-# else:
-#     print("x is equal to y")
+# # SMART BUDGET TRACKER
 
-# ---------------------  LOOP  -------------------------------
+# week = float(input("weekly allowance : "))
+# food = float(input("food cost : "))
+# travel = float(input("travel cost : "))
 
-# stu = ["hey","hello","hou"]
-# for i in stu :
-#     print(i)
+# total = food + travel
+# remain = week - total
 
-# i = 0
-# while i < 3 :
-#     print(i)
-#     i = i + 1
-
-# ---------------------- FUNCTION -----------------------------
-
-# def square(num):
-#     print(num * num)
-
-# # or 
-
-# def square(num):
-#     return num * num
+# # print(f"total budget :{total} and remaining balance is :{remain}")
 

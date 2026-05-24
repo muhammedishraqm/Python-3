@@ -1,81 +1,107 @@
-# ---------------------- FUNCTION -----------------------------
+'''---------------------- FUNCTION -----------------------------
 
-# def square(num):
-#     print(num * num)
+def square(num):
+    print(num * num)
 
-# # or 
+OR
 
-# def square(num):
-#     return num * num
-
-
-# def multiple (num1, num2):
-#     return num1 * num2
-
-# print(multiple(5,6))
+def square(num):
+    return num * num
 
 
-## FUNC AUTH
-# x = input("User: ")
-# y = input("Pass: ")
+# ----------------- FUNC AUTH ------------------------
+x = input("User: ")
+y = input("Pass: ")
 
-# def data(user,pas):
-#     if user == x and y == pas :
-#         print("YES")
-#     else :
-#         print("NO")
-#     return user,pas
+def data(user,pas):
+    if user == x and y == pas :
+        print("YES")
+    else :
+        print("NO")
+    return user,pas
 
-# data("abc123","321")
-
-
-# def curr(amount):
-#     amount = float(amount)
-#     print(f"${amount:.2f}")
-#     return amount
-# curr(10)
+data("abc123","321")
 
 
-# def off():
-#     print("start")
-#     print("work")
-#     print("stop")
-# off()
+def curr(amount):
+    amount = float(amount)
+    print(f"${amount:.2f}")
+    return amount
+curr(10)
 
 
-# def func_name(-PARAMETER-)
-#     print(---------)
-# func name(-ARGUMENTS-)
+def off():
+    print("start")
+    print("work")
+    print("stop")
+off()
 
 
-# def lowerr(x):
-#     print(x.strip().lower())
-# lowerr("     hEYYYY          ")
+------------------------- ARGUMENTS & PARAMETER ------------------------------------------
 
-# def names(first,last,country):
-#     firstn = first.strip().lower()
-#     lastn = last.strip().lower()
-#     coun = country.strip().lower()
-#     full = firstn+" "+lastn+" from "+coun
-#     print(full)
-
-# names("john","davis","India")                                   #POSITIONAL ARG   (Order Matters)
-# names(first = "john",last = "davis",country = "India")          #KEYWORD ARG      (Safe than POSITIONAL ARG)           
+def func_name(-PARAMETER-)
+    print(---------)
+func name(-ARGUMENTS-)
 
 
+def names(first,last,country):
+    firstn = first.strip().lower()
+    lastn = last.strip().lower()
+    coun = country.strip().lower()
+    full = firstn+" "+lastn+" from "+coun
+    print(full)
+
+names("john","davis","India")                                   #POSITIONAL ARG   (Order Matters)
+names(first = "john",last = "davis",country = "India")          #KEYWORD ARG      (Safe than POSITIONAL ARG)           
+names("john",last = "davis",country = "India")                    
 
 
+def names(first,middle,last="n/a"):
+    print(f"{first} {middle} {last}")
+
+names("John","Davide")                                       # if name hasn't it will use n/a (provided)
+names("john","David","DC")                                   # if name has it will use the name
+
+--------------------------------  *ARGS & **KWARGS  -----------------------------------   # allow unknown number as arguments
+
+def total(*args):
+    print(type(args))
+    print(sum(args))
+
+total(1,2,3)
+total(1,2,3,4,5,6,7)
 
 
+def create_user (**kwargs) :
+    print(type(kwargs))
+    print (kwargs)
+
+create_user(
+    first_name="Mo",
+    Last_name="Salah",
+    age=33,
+    country="Egypt")
+
+create_user(
+    first_name="ronaldo",
+    Last_name="cr7",
+    age=33,
+    country="portugal")
 
 
+-------------------------------- RETURN ----------------------------------- 
+
+def square(num):
+    return num * num
 
 
+def multiple (num1, num2):
+    return num1 * num2
+
+print(multiple(5,6))
 
 
-
-
-# # --- ATM FUNCTIONS ---
+# # ------------------------ ATM FUNCTIONS ----------------------------------------
 
 # def bal(balance1):
 #     """Displays the current balance."""
@@ -130,3 +156,5 @@
 # # This line physically triggers our main program to start running
 # main()
 
+
+'''
